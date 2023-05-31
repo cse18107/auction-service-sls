@@ -1,0 +1,24 @@
+{
+  "name": "autcion-project",
+  "version": "1.0.0",
+  "description": "<!-- title: 'AWS NodeJS Example' description: 'This template demonstrates how to deploy a NodeJS function running on AWS Lambda using the traditional Serverless Framework.' layout: Doc framework: v3 platform: AWS language: nodeJS priority: 1 authorLink: 'https://github.com/serverless' authorName: 'Serverless, inc.' authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4' -->",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@middy/core": "^4.4.3",
+    "@middy/http-error-handler": "^4.4.3",
+    "@middy/http-event-normalizer": "^4.4.3",
+    "@middy/http-json-body-parser": "^4.4.3",
+    "@middy/validator": "^4.4.3",
+    "graceful-fs": "^4.2.11",
+    "http-errors": "^2.0.0",
+    "serverless-offline": "^12.0.4",
+    "serverless-pseudo-parameters": "^2.6.1",
+    "uuid": "^9.0.0"
+  }
+}
